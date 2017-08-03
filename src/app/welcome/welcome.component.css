@@ -1,0 +1,24 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../../assets/Lato-Regular.ttf);
+}
+.welcome-square {
+    top: 10%;
+    left: 25%;
+    position: absolute;
+    margin: 0 auto;
+    background-color: grey;
+    width: 600px;
+    height: 500px;
+    font-family: myFirstFont;
+}
+.inner {
+    padding: 10px;
+    font-size: 36px;
+    text-align: center;
+    color: white; 
+    font-style: italic;
+}
+h1 {
+   padding: 10px;
+}

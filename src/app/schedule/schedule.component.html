@@ -1,0 +1,11 @@
+<div class="schedule-square">
+  <div class="inner-square">
+    <h3 class="title">Agenda</h3>
+    <table>
+      <tr *ngFor="let event of events">
+        <td class="right">{{event.event}}</td>
+        <td class="left">{{event.event_start | date:'shortTime'}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

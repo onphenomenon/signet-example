@@ -1,0 +1,31 @@
+.schedule-square {
+    top: 10%;
+    left: 25%;
+    position: absolute;
+    margin: 0 auto;
+    background-color: grey;
+    width: 600px;
+    height: 650px;
+}
+.inner-square {
+    padding: 10px 40px;
+    color: white; 
+    font-style: italic;
+}
+.title {
+    font-size: 48px;
+    margin: 0;
+    border-bottom: 2px solid white;
+}
+table {
+    width: 100%;
+}
+tr {
+    font-size: 24px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    float: left;
+}
